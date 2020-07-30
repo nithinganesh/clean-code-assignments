@@ -37,3 +37,25 @@ public:
         scanner->scan();
     }
 };
+
+typedef void (*print_fp)();
+typedef bool (*scan_fp)();
+void printer()
+{
+
+}
+
+bool scanner()
+{
+
+}
+
+void printmanager(print_fp fp)
+{
+    fp();
+}
+
+void scanmanager(scan_fp fp)
+{
+    fp();
+}
